@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "CleanLoop",
+    "slug": "cleanloop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "cleanloop",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#16a34a"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "CleanLoop needs camera access to capture waste reports."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "CleanLoop needs location to tag your report."
+        }
+      ],
+      "expo-secure-store",
+      "expo-status-bar"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#16a34a"
+      },
+      "package": "com.cleanloop.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.cleanloop.app",
+      "supportsTablet": false
+    }
+  }
+}

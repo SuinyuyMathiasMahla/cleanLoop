@@ -1,0 +1,40 @@
+{
+  "CleanLoop-Storage-dev": {
+    "ExportsOutputRefTasksTable88911DC507408875": "cleanloop-tasks-dev",
+    "MediaBucketNameOutput": "cleanloop-media-dev-176150914525",
+    "UsersTableName": "cleanloop-users-dev",
+    "ExportsOutputRefReportsTable282F228301302D83": "cleanloop-reports-dev",
+    "ExportsOutputRefMediaBucketBCBB02BA270A7AEB": "cleanloop-media-dev-176150914525",
+    "ExportsOutputFnGetAttMediaBucketBCBB02BAArnB94B784B": "arn:aws:s3:::cleanloop-media-dev-176150914525",
+    "ExportsOutputFnGetAttReportsTable282F2283Arn95C8A393": "arn:aws:dynamodb:us-east-1:176150914525:table/cleanloop-reports-dev",
+    "ExportsOutputRefUsersTable9725E9C857961836": "cleanloop-users-dev",
+    "ExportsOutputRefNotificationsTable76DCFC6C32DE73EE": "cleanloop-notifications-dev",
+    "ExportsOutputFnGetAttTasksTable88911DC5ArnA683FDD2": "arn:aws:dynamodb:us-east-1:176150914525:table/cleanloop-tasks-dev",
+    "ExportsOutputFnGetAttUsersTable9725E9C8Arn5684EF99": "arn:aws:dynamodb:us-east-1:176150914525:table/cleanloop-users-dev",
+    "ExportsOutputFnGetAttNotificationsTable76DCFC6CArn012EC0C4": "arn:aws:dynamodb:us-east-1:176150914525:table/cleanloop-notifications-dev",
+    "TasksTableName": "cleanloop-tasks-dev",
+    "NotificationsTableName": "cleanloop-notifications-dev",
+    "ReportsTableName": "cleanloop-reports-dev"
+  },
+  "CleanLoop-Notifications-dev": {
+    "EventBusName": "cleanloop-events-dev",
+    "EventBusArn": "arn:aws:events:us-east-1:176150914525:event-bus/cleanloop-events-dev"
+  },
+  "CleanLoop-Auth-dev": {
+    "ExportsOutputFnGetAttUserPool6BA7E5F2Arn686ACC00": "arn:aws:cognito-idp:us-east-1:176150914525:userpool/us-east-1_NUKIgRsjH",
+    "CognitoDomainOutput": "cleanloop-dev",
+    "UserPoolIdOutput": "us-east-1_NUKIgRsjH",
+    "UserPoolClientIdOutput": "39n14trvkv2s7ii4tvrffa8keq",
+    "ExportsOutputRefUserPool6BA7E5F296FD7236": "us-east-1_NUKIgRsjH"
+  },
+  "CleanLoop-Compute-dev": {
+    "ExportsOutputFnGetAttReportsHandler253DFE0BArn2987E37C": "arn:aws:lambda:us-east-1:176150914525:function:cleanloop-reports-dev",
+    "ExportsOutputFnGetAttTasksHandler3C67BD4CArn97C31B24": "arn:aws:lambda:us-east-1:176150914525:function:cleanloop-tasks-dev",
+    "ExportsOutputFnGetAttNotificationsHandler4CA9F200Arn68784BA1": "arn:aws:lambda:us-east-1:176150914525:function:cleanloop-notifications-dev",
+    "ExportsOutputFnGetAttCrewHandler934FF8EDArnB4A1D16E": "arn:aws:lambda:us-east-1:176150914525:function:cleanloop-crew-dev"
+  },
+  "CleanLoop-Api-dev": {
+    "CleanLoopApiEndpoint634B740D": "https://wydh97x2hj.execute-api.us-east-1.amazonaws.com/dev/",
+    "ApiUrlOutput": "https://wydh97x2hj.execute-api.us-east-1.amazonaws.com/dev/"
+  }
+}
